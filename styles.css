@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Khula&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #006400;
+  font-family: "Khula", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #16d9e3;
+}
+
+.start {
+  font-size: 1.5rem;
+}
+
+h1 {
+  line-height: 1.4;
+  font-size: 4rem;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  transition: margin 0.5s ease-out;
+  background: #87CEEB;
+}
+
+.screen.up {
+  margin-top: -100vh;
+}
+
+.time-btn {
+  background-color: transparent;
+  border: 2px solid #c0c0c0;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+.time-btn:hover {
+  border: 2px solid #6A5ACD;
+  color: #6A5ACD;
+}
+.btnStart:hover {
+  border: 2px solid #6A5ACD;
+  color: #6A5ACD;
+}
+.time-list li {
+  margin: 10px;
+}
+
+.time-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.container{
+  max-width:800px;
+  padding: 40px 15px;
+  margin: 0 auto;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 120px;
+  height: 166px;
+  background: url(img/1635890755_21-phonoteka-org-p-fon-dlya-rubashki-kart-krasivie-23.jpg) no-repeat;
+  color: transparent;
+  transform: perspective(600px) rotateY(180deg);
+  font-size: 90px;
+  /*font-weight: bold;*/
+  font-family: Brush Script MT;
+  border-radius: 10px;
+  transition: background-color .15s, color .15s, transform .15s;
+  cursor: pointer;
+}
+
+
+
+.card.open{
+  transform: perspective(600px) rotateY(360deg) ;
+  background:url(img/a803f4137ebf6c437abeb6cb3f74a16c--fulton-playing-cards.jpg)no-repeat;;
+  color:black   ;
+}
+
+.card.succes{
+  background:url(img/a803f4137ebf6c437abeb6cb3f74a16c--fulton-playing-cards.jpg)no-repeat;
+  color: black;
+  transform: scale(0.95);
+}
+.game{
+  display: flex;
+  flex-wrap: wrap;
+  max-width:600px;
+}
+.game0{
+  display: flex;
+  flex-wrap: wrap;
+  max-width:400px;
+}
+.game2{
+  display: flex;
+  flex-wrap: wrap;
+  max-width:1000px;
+}
+.btnStart{
+  background-color: transparent;
+  border: 2px solid #c0c0c0;
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+}
+
+
+

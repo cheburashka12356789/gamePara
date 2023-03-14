@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Aim Training </title>
+  </head>
+
+  <body>
+    <div class="screen">
+      <h1>Игра "Пара"</h1>
+      <a href="#" class="start" id="start">Начать игру</a>
+    </div>
+
+    <div class="screen" id="choise">
+      <h1>Выберите уровень</h1>
+      <ul class="time-list" id="time-list">
+        <li>
+          <button class="time-btn" data-time="5">
+            легкий
+          </button>
+        </li>
+        <li>
+          <button class="time-btn" data-time="15">
+            средний
+          </button>
+        </li>
+        <li>
+
+          <button class="time-btn" data-time="19">
+            сложный
+          </button>
+          </li>
+
+      </ul>
+    </div>
+
+    <div class="screen">
+      <div class="container">
+
+      <h3>Найдите пару</h3>
+
+      <div class="game0" id="game0" ></div>
+        <div class="game" id="game" ></div>
+          <div class="game2" id="game2" ></div>
+
+
+    </div>
+    </div>
+    <div class="screen">
+      <h2>GAME OVER)))))</h2>
+      <h3>Количество нажатий:  <span id="score"></span></h3>
+      <h3>Вы играли:<span  id="time">1</span> секунд</h3>
+
+      <button class="btnStart" id="btnSt"> Начать заново</button>
+    </div>
+  <script type="module" src="main.js"></script>
+  </body>
+</html>
